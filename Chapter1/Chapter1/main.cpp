@@ -14,5 +14,29 @@ int main(int argc, const char * argv[]) {
     int v1 = 0, v2 = 0;
     std::cin >> v1 >> v2;
     std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1+v2 << std::endl;
+    
+    int sum = 0, val = 50;
+    int value = 0;
+    while (std::cin >> value) {
+        sum += value;
+    }
+    std::cout << sum <<std::endl;
+    
+    sum = 0, val = 50;
+    
+    for (int i=50; i<=100; i++) {
+        sum += i;
+    }
+    
+    std::cout << sum << std::endl;
+    
+    sum = 0;
+    while (val <= 100) {
+        sum += val;
+        val++;
+    }
+    
+    std::cout << sum << std::endl;
+    
     return 0;
 }

@@ -23,6 +23,9 @@
     if (self) {
         person = new Person();
         person->printHello();
+        
+        Person p = Person();
+        p.printHello();
     }
     
     return self;
