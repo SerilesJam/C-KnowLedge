@@ -10,6 +10,13 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
+    
+    unsigned u = 10;
+    int i = -42;
+    std::cout << i+i << std::endl;
+    
+    std::cout << i+u << std::endl;
+    
     std::cout << "Enter two numbers:" << std::endl;
     int v1 = 0, v2 = 0;
     std::cin >> v1 >> v2;
